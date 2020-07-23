@@ -645,7 +645,7 @@ def main() -> None:
     parser.add_argument(
         '--directory',
         type=str,
-        default='/projects/nlp-corpora/',
+        default='/projects/bdata/datasets',
         help='path to top-level corpus directory')
     parser.add_argument(
         '--ok-owners',

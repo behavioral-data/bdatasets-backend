@@ -77,13 +77,13 @@ usage: check.py [-h] [--directory DIRECTORY] [--ok-owners OK_OWNERS]
                 [--out-file OUT_FILE] [--log-file LOG_FILE]
                 [--doc-dir DOC_DIR] [--plot-dest PLOT_DEST]
 
-Tool to check nlp-corpora directory and output documentation.
+Tool to check bdatasets directory and output documentation.
 
 optional arguments:
   -h, --help            show this help message and exit
   --directory DIRECTORY
                         path to top-level corpus directory (default:
-                        /projects/nlp-corpora/)
+                        /projects/bdata/bdatasets)
   --ok-owners OK_OWNERS
                         comma-separated list of allowed owners (default:
                         mbforbes)

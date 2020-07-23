@@ -1,5 +1,5 @@
 """
-Checker script to crawl /projects/nlp-corpora/ directory.
+Checker script to crawl /projects/bdata/datasets/ directory.
 """
 
 #
@@ -142,7 +142,7 @@ def build_top(success: bool) -> str:
     )
     badge_date = BADGE_DATE_FMT.format(date='{:%-m/%-d/%y}'.format(datetime.datetime.now()))
     return '\n'.join([
-        '# nlp-corpora',
+        '# bdatasets',
         '',
         badge_result,
         badge_date,
@@ -328,7 +328,7 @@ def check_dir(
     ) -> DirResult:
     """
     For a corpus directory (`path`), checks its properties to ensure they
-    conform to the nlp-corpora guidelines.
+    conform to the bdatasets guidelines.
 
     Calling this `path` and not `directory` or something because it may
     actually end up being a file and not a directory, and we need to handle
@@ -639,7 +639,7 @@ def check(
 def main() -> None:
     # cmd line args
     parser = argparse.ArgumentParser(
-        description='Tool to check nlp-corpora directory and output documentation.',
+        description='Tool to check bdatasets directory and output documentation.',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
     parser.add_argument(

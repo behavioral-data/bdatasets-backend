@@ -6,9 +6,9 @@
 
 ### Using the corpora
 
-Accessing the nlp-corpora requires UW CSE department server access (e.g., to
+Accessing bdatasets requires UW CSE department server access (e.g., to
 the machines `{recycle,bicycle,tricycle}@cs.washington.edu`) so that they can
-view the department filesystem. The nlp-corpora directory is located on the
+view the department filesystem. The bdatasets directory is located on the
 department filesystem at `/projects/bdata/datasets`. Anyone with a UW CSE account
 can log onto the department servers and view the files there. (For those
 without a UW CSE account, see the [access outside UW CSE

@@ -7,10 +7,9 @@ researchers in UW can receive a free UW CSE guest account by having a
 UW CSE faculty or staff [sponsor
 them](https://sponsor.cs.washington.edu/). Despite the name "sponsor,"
 this is absolutely _free_ for both parties. Guest accounts last up to
-two years and can be renewed indefinitely. This is the way to grant
-NLP friends in UW EE and UW linguistics access to nlp-corpora.
+two years and can be renewed indefinitely. 
 
-_Please note that nlp-corpora is only available within the
+_Please note that bdatasets is only available within the
 University of Washington. We cannot grant access to any external
 people or parties._
 

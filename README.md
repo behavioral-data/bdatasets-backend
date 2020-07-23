@@ -1,4 +1,4 @@
-# nlp-corpora-backend
+# bdatasets-backend
 
 This repository contains the infrastructure to provide a live status of
 `/projects/bdata/datasets` by crawling its contents.

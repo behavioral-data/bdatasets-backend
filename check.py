@@ -107,7 +107,7 @@ WHITELIST_FILES = [
 
 # These are the only things allowed in a top-level (corpus) directory.
 CLEAN_DIR_WHITELIST = [
-    'original',
+    'raw',
     'processed',
     'README.md',
 ]
@@ -650,7 +650,7 @@ def main() -> None:
     parser.add_argument(
         '--ok-owners',
         type=str,
-        default='mbforbes',
+        default='mikeam',
         help='comma-separated list of allowed owners')
     parser.add_argument(
         '--group-config',

@@ -17,14 +17,14 @@ people or parties._
 
 ## Corpus structure
 
-Inside the `/projects/nlp-corpora/` directory, there should only be directories
+Inside the `/projects/bdata/datasets` directory, there should only be directories
 for corpora.
 
-Each corpus directory `<name>` should have the following format:
+Each dataset directory `<name>` should have the following format:
 
 ```
 <name>
-├── original/
+├── raw/
 │   └── ...
 ├── processed/
 │   └── ...
@@ -39,7 +39,7 @@ Each of the components should be as follows:
 
 _Optional_
 
-The `original/` subdirectory should contain the source material in the most
+The `raw/` subdirectory should contain the source material in the most
 raw, unprocessed form possible. If the source material was downloaded as a
 tarball, it should be that tarball. If it was downloaded as a set of files
 comprising a dataset, it should be those files. If it was scraped from a

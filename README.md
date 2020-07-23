@@ -49,11 +49,11 @@ Example usage:
 # also prints log to stderr if any checks failed. (This behavior so cron
 # auto sends an email to you if anything fails, but not if things pass.)
 python check.py \
-    --directory /projects/nlp-corpora/ \
-    --out-file ~/repos/nlp-corpora/README.md \
-    --log-file ~/repos/nlp-corpora/BUILD.txt \
-    --doc-dir ~/repos/nlp-corpora/doc \
-    --plot-dest ~/repos/nlp-corpora/disk-usage.svg
+    --directory /projects/bdata/datasets \
+    --out-file ~/bdatasets-repo/README.md \
+    --log-file ~/bdatasets-repo/BUILD.txt \
+    --doc-dir ~/bdatasets-repo/doc \
+    --plot-dest ~/bdatasets-repo/disk-usage.svg
 
 # The script can attempt to fix permission errors it finds. This isn't normally
 # run in the cron job (though it could be). It can be enabled with a flag:

@@ -1,9 +1,9 @@
 {
 	"standard": [
-		"nlp-corpora"
+		"bdata"
 	],
 	"restricted": {
-		"nlpc-byu": {
+		"gatesfoundation": {
 			"desc": "Please follow [these instructions](doc/byu-coca#restricted-access) for gaining access to the BYU corpora."
 		}
 	}

@@ -1,9 +1,9 @@
-**_A community-built high-quality repository of NLP corpora_**
+**_A community-built high-quality behavioral_**
 
-This project aims to collect a shared repository of corpora useful for NLP
-researchers, available inside UW.
+This project aims to collect a shared repository of datasets which may be useful to
+behavioral data scientists. 
 
-- **Community-built** — New corpora are encouraged! Official benchmark tasks,
+- **Community-built** — New datasets are encouraged! Official benchmark tasks,
   large-scale recipe scrapes, collections of old novels—all are welcome.
 
 - **High-quality** — Each corpus undergoes a vetting process to ensure it is of
@@ -14,7 +14,7 @@ researchers, available inside UW.
   [below](#live-status)).
 
 - **UW accessible** — All corpora live on the UW CSE department fileserver at
-  `/projects/nlp-corpora/` where they enjoy automatic backups. Friends in EE,
+  `/projects/bdata/datasets` where they enjoy automatic backups. Friends in EE,
   Linguistics, or other departments can [easily receive free
   access](#access-within-uw).
 

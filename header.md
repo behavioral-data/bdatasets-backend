@@ -1,10 +1,9 @@
-**_A community-built high-quality behavioral_**
+**_A community-built repository of high-quality behavioral datasets_**
 
 This project aims to collect a shared repository of datasets which may be useful to
 behavioral data scientists. 
 
-- **Community-built** — New datasets are encouraged! Official benchmark tasks,
-  large-scale recipe scrapes, collections of old novels—all are welcome.
+- **Community-built** — New datasets are encouraged! 
 
 - **High-quality** — Each corpus undergoes a vetting process to ensure it is of
   a marked version and has known state, consistent structure, and ample
@@ -27,7 +26,7 @@ This table contains a live view of all corpora. It is updated daily by a
 crawler that scans all corpora and checks that they meet quality guidelines
 (immutability, access permissions, documentation, and corpus structure).
 
-Click on any corpus to view its readme.
+Click on any dataset to view its readme.
 
 If the **Access** column shows a ✓, then it is open-access and ready for use.
 If not, the corpus is under restricted access due to its license or terms of

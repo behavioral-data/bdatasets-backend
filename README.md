@@ -1,7 +1,7 @@
 # nlp-corpora-backend
 
 This repository contains the infrastructure to provide a live status of
-`/projects/nlp-corpora/` by crawling its contents.
+`/projects/bdata/datasets` by crawling its contents.
 
 ## Features
 

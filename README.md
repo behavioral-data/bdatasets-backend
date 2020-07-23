@@ -7,13 +7,13 @@ This repository contains the infrastructure to provide a live status of
 
 Checks over contents of all corpora (sub)directories.
 
-Per-corpus:
+Per-dataset:
 
 - [x] owner
 - [x] group
 - [x] permissions
 - [x] configurable access restrictions (groups and permissions)
-- [x] corpus structure adherence
+- [x] dataset structure adherence
 - [x] readme existence
 - [x] readme project description
 - [x] readme documentation (of processed variants)
@@ -26,7 +26,7 @@ Overall:
 - [x] log containing detailed status breakdown and all errors
 - [x] report generation
     - [x] copies readme into browsable index
-    - [x] concise summary per corpus (name, readme link, description, size, access, status)
+    - [x] concise summary per dataset (name, readme link, description, size, access, status)
     - [x] pie chart of overall size usage
 - [x] configured cron usage:
     - [x] self-updates backend and runs daily
@@ -82,7 +82,7 @@ Tool to check bdatasets directory and output documentation.
 optional arguments:
   -h, --help            show this help message and exit
   --directory DIRECTORY
-                        path to top-level corpus directory (default:
+                        path to top-level dataset directory (default:
                         /projects/bdata/bdatasets)
   --ok-owners OK_OWNERS
                         comma-separated list of allowed owners (default:

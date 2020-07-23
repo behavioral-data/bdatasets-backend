@@ -2,7 +2,7 @@
 
 ### Access within UW
 
-Accessing the corpora requires a UW CSE unix account. Other
+Accessing the datasets requires a UW CSE unix account. Other
 researchers in UW can receive a free UW CSE guest account by having a
 UW CSE faculty or staff [sponsor
 them](https://sponsor.cs.washington.edu/). Despite the name "sponsor,"
@@ -14,10 +14,10 @@ University of Washington. We cannot grant access to any external
 people or parties._
 
 
-## Corpus structure
+## Dataset structure
 
 Inside the `/projects/bdata/datasets` directory, there should only be directories
-for corpora.
+for datasets.
 
 Each dataset directory `<name>` should have the following format:
 
@@ -30,11 +30,11 @@ Each dataset directory `<name>` should have the following format:
 └── README.md
 ```
 
-No other top-level contents in the corpus directory is allowed.
+No other top-level contents in the dataset directory is allowed.
 
 Each of the components should be as follows:
 
-### `original/`
+### `raw/`
 
 _Optional_
 
@@ -45,7 +45,7 @@ comprising a dataset, it should be those files. If it was scraped from a
 website, it should be the raw output of the scraping command (e.g., `curl` or
 `wget`).
 
-This may not exist for all corpora, but it is preferred to exist if possible.
+This may not exist for all datasets, but it is preferred to exist if possible.
 
 ### `processed/`
 
@@ -70,13 +70,13 @@ the data source.
 In general, it should have the following format:
 
 ```
-# (tile of the corpus)
+# (tile of the dataset)
 
-(Short description of the corpus.)
+(Short description of the dataset.)
 
-(How the corpus was acquired (including the URL or the contents of the script).)
+(How the dataset was acquired (including the URL or the contents of the script).)
 
-(When the corpus was acquired.)
+(When the dataset was acquired.)
 
 (For each subdirectory in "processed/" (if any exist), a description of how
 that directory was created. Optimal is a script (or a link to a specific

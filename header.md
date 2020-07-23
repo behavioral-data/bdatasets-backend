@@ -5,11 +5,11 @@ behavioral data scientists.
 
 - **Community-built** — New datasets are encouraged! 
 
-- **High-quality** — Each corpus undergoes a vetting process to ensure it is of
+- **High-quality** — Each dataset undergoes a vetting process to ensure it is of
   a marked version and has known state, consistent structure, and ample
-  documentation. Once it is added, a corpus becomes read-only to guard against
+  documentation. Once it is added, a dataset becomes read-only to guard against
   accidental modifications. A daily crawler indexes the full collection and
-  performs several checks on every file of every corpus (browsable
+  performs several checks on every file of every dataset (browsable
   [below](#live-status)).
 
 - **UW accessible** — All corpora live on the UW CSE department fileserver at
@@ -24,11 +24,11 @@ as instructions for accessing the corpora and proposing new additions.
 
 This table contains a live view of all corpora. It is updated daily by a
 crawler that scans all corpora and checks that they meet quality guidelines
-(immutability, access permissions, documentation, and corpus structure).
+(immutability, access permissions, documentation, and dataset structure).
 
 Click on any dataset to view its readme.
 
 If the **Access** column shows a ✓, then it is open-access and ready for use.
-If not, the corpus is under restricted access due to its license or terms of
+If not, the dataset is under restricted access due to its license or terms of
 use. Visit the [Restricted access](#restricted-access) section for details on
 each of these corpora.
